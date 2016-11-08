@@ -1,4 +1,4 @@
-# spatie-dom
+# spatie-scss
 
 [![Latest Version on NPM](https://img.shields.io/npm/v/spatie-scss.svg?style=flat-square)](https://npmjs.com/package/spatie-scss)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
