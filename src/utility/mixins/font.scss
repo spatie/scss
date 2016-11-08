@@ -1,0 +1,53 @@
+// Generic
+@mixin font-size($font-size: default, $type: rem) {
+    font-size: font-size($font-size, $type);
+}
+
+@mixin font($family: default, $weight: normal, $style: normal) {
+    font-family: font-family($family);
+    font-style: $style;
+    @if $family != 'icons' {
+        font-weight: font-weight($weight, $family);
+    }
+}
+
+// Shortcuts
+@mixin font-icons {
+    @include font(icons);
+}
+
+@mixin font-thin {
+    @include font(default, thin);
+}
+
+@mixin font-light {
+    @include font(default, light);
+}
+
+@mixin font-medium {
+    @include font(default, medium);
+}
+
+@mixin font-bold {
+    @include font(default, bold);
+}
+
+@mixin font-black {
+    @include font(default, black);
+}
+
+@mixin font-secondary {
+    @include font(secondary);
+}
+
+@mixin font-secondary-bold {
+    @include font(secondary, bold);
+}
+
+@mixin font-fixed {
+    @include font(fixed);
+}
+
+@mixin font-fixed-bold {
+    @include font(fixed, bold);
+}

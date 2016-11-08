@@ -1,0 +1,51 @@
+$font-families: (
+    icons: fontello,
+    default: (-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif),
+    secondary: (serif),
+    fixed: (Consolas, 'courier new', courier, monospace),
+) !default;
+$font-sizes: (
+    px: (
+        xs: 12px,
+        s: 14px,
+        default: 16px,
+        m: 21px,
+        l: 28px,
+        xl: 42px,
+    ),
+    rem: (
+        xs: .65rem,
+        s: .85rem,
+        default: 1rem,
+        m: 1.35rem,
+        l: 1.8rem,
+        xl: 2.4rem
+    ),
+) !default;
+$font-weights: (
+    default: (
+            thin: 100,
+            light: 300,
+            normal: 400,
+            medium: 600,
+            bold: 700,
+            heavy: 900,
+            ),
+    secondary: (
+        normal: 400,
+        bold: 700,
+    ),
+    fixed: (
+        normal: 400,
+        bold: 700,
+    ),
+) !default;
+$line-heights: (
+    xs: 1.1,
+    s: 1.25,
+    default: 1.5,
+    m: 1.75,
+    l: 2.5,
+    xl: 3,
+) !default;
+$font-anti-aliasing: subpixel !default;

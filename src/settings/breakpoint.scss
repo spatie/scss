@@ -1,0 +1,12 @@
+$breakpoints: (
+    horizontal: (
+        xs: 410px,
+        s: 800px,
+        m: 1000px,
+        l: 1400px,
+        xl: 2000px,
+    ),
+    vertical: (
+        s: 800px,
+    )
+) !default;

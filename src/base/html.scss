@@ -1,0 +1,16 @@
+html {
+    @include font-size(default, px);
+    @include text-antialiasing($font-anti-aliasing);
+
+    height: 100%;
+
+    @include mq-smaller(l) {
+        @include font-size(s, px);
+    }
+    @include mq-smaller(m) {
+        @include font-size(xs, px);
+    }
+    @include mq-smaller(s) {
+        @include font-size(xs, px);
+    }
+}

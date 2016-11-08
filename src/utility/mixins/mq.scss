@@ -1,0 +1,29 @@
+@mixin mq($breakpoint, $query: min-width) {
+    @media (#{$query}: #{$breakpoint} ) {
+        @content;
+    }
+}
+
+@mixin mq-smaller($breakpoint: s) {
+    @include mq(breakpoint($breakpoint), max-width) {
+        @content;
+    }
+}
+
+@mixin mq-wider($breakpoint: s) {
+    @include mq(breakpoint($breakpoint), min-width) {
+        @content;
+    }
+}
+
+@mixin mq-shorter($breakpoint: s) {
+    @include mq(breakpoint($breakpoint, vertical), max-height) {
+        @content;
+    }
+}
+
+@mixin mq-taller($breakpoint: s) {
+    @include mq(breakpoint($breakpoint, vertical), min-height) {
+        @content;
+    }
+}

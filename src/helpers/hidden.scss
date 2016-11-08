@@ -1,0 +1,14 @@
+.h-hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.h-hidden-invisible {
+    visibility: hidden;
+}
+
+.h-hidden-transparent {
+    opacity: 0;
+
+    pointer-events: none;
+}

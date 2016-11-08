@@ -1,0 +1,20 @@
+ol,
+ul {
+    line-height: line-height();
+
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    line-height: line-height();
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: .75em;
+    padding-bottom: .75em;
+}
