@@ -49,7 +49,9 @@ CSS properties are not vendor-prefixed. Running autoprefixer in your own build p
 
 ## Documentation
 
-Work in progress
+This package implements the ideas in our [css-styleguide](https://github.com/spatie/css-styleguide).
+
+*Work in progress*
 
 ### base
 
@@ -60,6 +62,12 @@ Work in progress
 ### settings
 
 ### utility
+
+
+### Code Style
+- Install cscomb globally via `npm i csscomb -g` 
+- Put a `.csscomb.json` in root dir of your project
+- Run `csscomb resources`
 
 
 ## Change log
