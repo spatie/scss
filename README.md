@@ -70,7 +70,7 @@ $blue: (
 ) !default;
 ```
 
-...and can be used with mixins or functions afterwards:
+... and can be used with mixins or functions afterwards:
 
 ```scss
 // my-app.scss
