@@ -1,11 +1,13 @@
 $inputs: (
     height: 2.5em,
     height-small: 1.5em,
+    height-textarea: 10em,
     border-width: 2px,
     border-color: map-get($gray, lighter),
     border-color-focus: map-get($blue, light),
     border-radius: map-get($border-radius, s),
     box-shadow: (inset 0 2px 2px rgba(0, 0, 0, .05), 0 2px 2px rgba(0, 0, 0, .05)),
+    color: map-get($color, text),
     mark-color: map-get($blue, default),
     padding: .75em
 ) !default;

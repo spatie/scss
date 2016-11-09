@@ -25,10 +25,20 @@
 @import 'utility/mixins/text';
 
 @import 'base/*';
+@import 'base/a';
 @import 'base/body';
+@import 'base/h';
 @import 'base/html';
 @import 'base/img';
+@import 'base/input';
+@import 'base/input-check-radio';
+@import 'base/label';
 @import 'base/list';
+@import 'base/p';
+@import 'base/quote';
+@import 'base/select';
+@import 'base/text-tag';
+@import 'base/textarea';
 
 @import 'helpers/above-below';
 @import 'helpers/align';
@@ -41,5 +51,7 @@
 @import 'helpers/margin';
 @import 'helpers/padding';
 @import 'helpers/text';
+
+@import 'components/alert';
 
 @import 'patterns/grid';

@@ -1,0 +1,20 @@
+label,
+.label {
+    display: block;
+    margin-bottom: gutter(xs);
+}
+
+.label--checkbox {
+    @extend .label;
+
+    display: block;
+    margin-bottom: gutter();
+}
+
+.label--required {
+    @extend .label;
+
+    &:after {
+        content: '*';
+    }
+}
