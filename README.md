@@ -5,7 +5,7 @@
 
 SCSS boilerplate with common functions, mixins, helpers and patterns to kickstart CSS authoring.
 
-The packages sets some sensible defaults for HTML elements eg.:
+The package sets some sensible defaults for HTML elements eg.:
 
 ```scss
 // base/*.scss
