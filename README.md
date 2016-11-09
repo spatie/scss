@@ -5,6 +5,98 @@
 
 SCSS boilerplate with common functions, mixins, helpers and patterns to kickstart CSS authoring.
 
+The package sets some sensible defaults for HTML elements eg.:
+
+```scss
+// base/*.scss
+
+* {
+    box-sizing: border-box;
+    position: relative;
+
+    &:after,
+    &:before {
+        box-sizing: border-box;
+    }
+}
+```
+
+Generic helper classes are included for common layout issues:
+
+```scss
+// helpers/margin.scss
+
+.h-margin {
+    ...
+}
+
+.h-margin-none {
+    ...
+}
+
+.h-margin-small {
+    ...
+}
+
+...
+
+```
+
+Default settings are stored in Sass maps...
+
+```scss
+// settings/typography.scss
+
+$font-weights: (
+    default: (
+            ...
+            ),
+    secondary: (
+        normal: 400,
+        bold: 700,
+    ),
+    fixed: (
+       ...
+    ),
+) !default;
+
+
+// settings/colors.scss
+
+$blue: (
+    lightest: #e6f5ff,
+    lighter: #8bcdff,
+    ...
+) !default;
+```
+
+...and can be used with mixins or functions afterwards:
+
+```scss
+// my-app.scss
+
+@import 'my-settings';
+@import 'spatie-scss/spatie';
+
+h1 {
+    @include font-secondary-bold;
+    color: blue(darkest);
+}
+
+```
+
+*Full documentation in progress*
+
+## Postcardware
+
+Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+
+You're free to use this package (it's [MIT-licensed](LICENSE.md)), but if it makes it to your production environment we'd appreciate if you send us a postcard from your hometown, mentioning which of our package(s) you are using.
+
+Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
+
+The best postcards will get published on the open source page on our website.
+
 ## Install
 
 You can install the package via yarn:
@@ -53,12 +145,10 @@ This package implements the ideas from our [css-styleguide](https://github.com/s
 
 *Work in progress*
 
-
 ### Code Style
 - Install cscomb globally via `npm i csscomb -g` 
 - Put a `.csscomb.json` in root dir of your project
-- Run `csscomb resources`
-
+- Run `csscomb src`
 
 ## Change log
 
@@ -69,17 +159,14 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-
 ## Credits
 
 - [Willem Van Bockstal](https://github.com/willemvb)
 - [All Contributors](../../contributors)
 
-
 ## About Spatie
 
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
-
 
 ## License
 
