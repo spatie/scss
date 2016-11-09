@@ -49,19 +49,9 @@ CSS properties are not vendor-prefixed. Running autoprefixer in your own build p
 
 ## Documentation
 
-This package implements the ideas in our [css-styleguide](https://github.com/spatie/css-styleguide).
+This package implements the ideas from our [css-styleguide](https://github.com/spatie/css-styleguide).
 
 *Work in progress*
-
-### base
-
-### helpers
-
-### patterns
-
-### settings
-
-### utility
 
 
 ### Code Style
