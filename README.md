@@ -73,8 +73,9 @@ $blue: (
 ...and can be used with mixins or functions afterwards:
 
 ```scss
-// Your app.scss
+// my-app.scss
 
+@import 'my-settings'
 @import 'spatie-scss/spatie'
 
 h1 {
@@ -84,7 +85,7 @@ h1 {
 
 ```
 
-Full documentation in progress.
+*Full documentation in progress*
 
 ## Postcardware
 
