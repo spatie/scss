@@ -3,7 +3,7 @@
 [![Latest Version on NPM](https://img.shields.io/npm/v/spatie-scss.svg?style=flat-square)](https://npmjs.com/package/spatie-scss)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-SCSS boilerplate with common functions, mixins, helpers and patterns to kickstart a web project.
+SCSS boilerplate with common functions, mixins, helpers and patterns to kickstart CSS authoring.
 
 ## Install
 
