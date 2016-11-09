@@ -1,20 +1,44 @@
-.alert {
-    margin: 0;
-    padding: gutter();
+.alerts {
+    margin: gutter();
 
     &:empty {
-        padding: 0;
+        display: none;
+    }
+}
+
+.alerts--docked {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: z-index(modal);
+
+    text-align: center;
+
+    .alert {
+        margin: 0;
+    }
+}
+
+.alerts__close {
+    position: absolute;
+    top: gutter();
+    right: gutter();
+
+    color: inherit;
+}
+
+.alert {
+    padding: gutter();
+
+    & + & {
+        margin-top: gutter();
     }
 
-    &:first-child {
-        margin-top: 0;
+    &:empty {
+        display: none;
     }
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-
-    // Sizes
 
     &.-small {
         font-size: font-size(s);
@@ -33,50 +57,34 @@
 
         padding: gutter(s);
     }
-
-    // Type
-
-    &.-info {
-        color: blue(dark);
-        background: blue(lightest);
-    }
-
-    &.-success {
-        color: green(dark);
-        background: green(lightest);
-    }
-
-    &.-warning {
-        color: white();
-        background: yellow();
-    }
-
-    &.-error,
-    &.-danger {
-        color: red();
-        background: red(lightest);
-    }
 }
 
-.alerts--fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: z-index(modal);
 
-    text-align: center;
+.alert--info {
+    @extend .alert;
 
-    .alert {
-        margin: 0;
-    }
+    color: blue(dark);
+    background: blue(lightest);
 }
 
-.alerts__close {
-    @include center-vertical();
+.alert--success {
+    @extend .alert;
 
-    position: absolute;
-    right: gutter();
+    color: green(dark);
+    background: green(lightest);
+}
 
-    color: inherit;
+.alert--warning {
+    @extend .alert;
+
+    color: white();
+    background: yellow();
+}
+
+.alert--error,
+.alert--danger {
+    @extend .alert;
+
+    color: red();
+    background: red(lightest);
 }
