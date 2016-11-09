@@ -75,8 +75,8 @@ $blue: (
 ```scss
 // my-app.scss
 
-@import 'my-settings'
-@import 'spatie-scss/spatie'
+@import 'my-settings';
+@import 'spatie-scss/spatie';
 
 h1 {
     @include font-secondary-bold;
