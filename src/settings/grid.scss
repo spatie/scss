@@ -1,3 +1,4 @@
+@import './breakpoint';
 $grid: (
     max-width: 75rem,
     spacing: 2rem,
@@ -7,5 +8,10 @@ $grid: (
         4,
         5,
         6,
+    ),
+    breakpoints: (
+        s:  '(min-width: #{map-get(map-get($breakpoints, horizontal), s)})',
+        m:  '(min-width: #{map-get(map-get($breakpoints, horizontal), m)})',
+        l:  '(min-width: #{map-get(map-get($breakpoints, horizontal), l)})',
     )
 ) !default;
