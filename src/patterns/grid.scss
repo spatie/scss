@@ -18,10 +18,10 @@ $av-width-class-namespace: '-width-';
 $av-width-class-style: 'fraction';
 $av-widths: grid(widths);
 $av-breakpoints: (
-    xs: '(max-width: #{breakpoint(xs)})',
-    s:  '(max-width: #{breakpoint(s)})',
-    m:  '(max-width: #{breakpoint(m)})',
-    l:  '(max-width: #{breakpoint(l)})',
+    xs: '(min-width: #{breakpoint(xs)})',
+    s:  '(min-width: #{breakpoint(s)})',
+    m:  '(min-width: #{breakpoint(m)})',
+    l:  '(min-width: #{breakpoint(l)})',
 );
 $av-element-name: 'grid__col';
 $av-modifier-class-chain: '.-';

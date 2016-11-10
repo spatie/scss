@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.7
+- Mediaqueries
+
 ## 0.6
 - Move page to grid
 
