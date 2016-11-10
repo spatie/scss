@@ -39,11 +39,10 @@ button,
 }
 
 .button--primary {
-
     @extend .button;
 
-    background-color: button(primary-background);
     color: button(primary-color);
+    background-color: button(primary-background);
 
     &:hover {
         background-color: darken(button(primary-background), .3);
@@ -51,11 +50,10 @@ button,
 }
 
 .button--secondary {
-
     @extend .button;
 
-    background-color: button(secondary-background);
     color: button(secondary-color);
+    background-color: button(secondary-background);
 
     &:hover {
         background-color: darken(button(secondary-background), .3);
@@ -63,11 +61,10 @@ button,
 }
 
 .button--success {
-
     @extend .button;
 
-    background-color: button(success-background);
     color: button(success-color);
+    background-color: button(success-background);
 
     &:hover {
         background-color: darken(button(success-background), .3);
@@ -75,11 +72,10 @@ button,
 }
 
 .button--warning {
-
     @extend .button;
 
-    background-color: button(warning-background);
     color: button(warning-color);
+    background-color: button(warning-background);
 
     &:hover {
         background-color: darken(button(warning-background), .3);
@@ -87,11 +83,10 @@ button,
 }
 
 .button--danger {
-
     @extend .button;
 
-    background-color: button(danger-background);
     color: button(danger-color);
+    background-color: button(danger-background);
 
     &:hover {
         background-color: darken(button(danger-background), .3);

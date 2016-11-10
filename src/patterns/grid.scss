@@ -1,4 +1,5 @@
 .grid {
+    max-width: grid(max-width);
     margin: 0 auto;
     padding: gutter();
 
@@ -22,7 +23,6 @@ $av-breakpoints: (
     m:  '(max-width: #{breakpoint(m)})',
     l:  '(max-width: #{breakpoint(l)})',
 );
-
 $av-element-name: 'grid__col';
 $av-modifier-class-chain: '.-';
 
