@@ -17,7 +17,11 @@ $av-gutter: grid(spacing);
 $av-width-class-namespace: '-width-';
 $av-width-class-style: 'fraction';
 $av-widths: grid(widths);
-$av-breakpoints: grid(breakpoints);
+$av-breakpoints: (
+    s:  '(min-width: #{map-get(map-get($breakpoints, horizontal), s)})',
+    m:  '(min-width: #{map-get(map-get($breakpoints, horizontal), m)})',
+    l:  '(min-width: #{map-get(map-get($breakpoints, horizontal), l)})',
+);
 $av-element-name: 'grid__col';
 $av-modifier-class-chain: '.-';
 

@@ -1,3 +1,9 @@
+@import '~normalize-css/normalize';
+
+@import 'src/utility/functions/color';
+@import 'src/utility/functions/typography';
+@import 'src/utility/functions/sass-map';
+
 @import 'src/settings/border-radius';
 @import 'src/settings/breakpoint';
 @import 'src/settings/button';
@@ -7,12 +13,6 @@
 @import 'src/settings/gutter';
 @import 'src/settings/input';
 @import 'src/settings/z-index';
-
-@import '~normalize-css/normalize';
-
-@import 'src/utility/functions/color';
-@import 'src/utility/functions/typography';
-@import 'src/utility/functions/sass-map';
 
 @import 'src/utility/mixins/background';
 @import 'src/utility/mixins/block';

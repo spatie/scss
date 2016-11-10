@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.7.1
+- Clean up settings
+
 ## 0.7
 - Mediaqueries
 
