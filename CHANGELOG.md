@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.3
+- Add buttons
+
 ## 0.2.1
 - Simpler select
 

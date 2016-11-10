@@ -12,10 +12,14 @@ input,
     transition: border-color .1s linear;
 
     @include form-placeholder() {
-        color: gray(lighter);
+        color: input(placeholder-color);
     }
     @include form-placeholder(':focus') {
         color: white(0);
+    }
+
+    &:hover {
+        border-color: input(border-color-hover) !important;
     }
 
     &:focus {

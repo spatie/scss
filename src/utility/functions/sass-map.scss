@@ -26,6 +26,10 @@
     @return mapping($border-widths, $key);
 }
 
+@function button($key) {
+    @return mapping($buttons, $key);
+}
+
 @function grid($key: spacing) {
     @return mapping($grid, $key);
 }

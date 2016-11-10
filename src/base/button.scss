@@ -1,0 +1,99 @@
+button,
+.button {
+    @include font-bold;
+
+    line-height: input(height);
+
+    display: inline-block;
+    min-height: input(height);
+    padding: 0 button(padding);
+    vertical-align: middle;
+
+    color: button(neutral-color);
+    background-color: button(neutral-background);
+    border: transparent input(border-width) solid;
+    border-radius: input(border-radius);
+
+    transition: border-color .1s linear;
+
+    &:hover {
+        background-color: darken(button(neutral-background), .3);
+    }
+
+    &:focus {
+        border-color: input(border-color-focus) !important;
+        outline: 0;
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+
+    &.-rounded {
+        border-radius: input(height);
+    }
+
+    &.-stretched {
+        width: 100%;
+    }
+}
+
+.button--primary {
+
+    @extend .button;
+
+    background-color: button(primary-background);
+    color: button(primary-color);
+
+    &:hover {
+        background-color: darken(button(primary-background), .3);
+    }
+}
+
+.button--secondary {
+
+    @extend .button;
+
+    background-color: button(secondary-background);
+    color: button(secondary-color);
+
+    &:hover {
+        background-color: darken(button(secondary-background), .3);
+    }
+}
+
+.button--success {
+
+    @extend .button;
+
+    background-color: button(success-background);
+    color: button(success-color);
+
+    &:hover {
+        background-color: darken(button(success-background), .3);
+    }
+}
+
+.button--warning {
+
+    @extend .button;
+
+    background-color: button(warning-background);
+    color: button(warning-color);
+
+    &:hover {
+        background-color: darken(button(warning-background), .3);
+    }
+}
+
+.button--danger {
+
+    @extend .button;
+
+    background-color: button(danger-background);
+    color: button(danger-color);
+
+    &:hover {
+        background-color: darken(button(danger-background), .3);
+    }
+}

@@ -13,6 +13,12 @@ input[type=radio],
     -webkit-appearance: none !important;
        -moz-appearance: white();
 
+    &:hover {
+        &:after {
+            border-color: input(border-color-hover);
+        }
+    }
+
     &:focus {
         outline: none;
 

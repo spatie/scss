@@ -29,7 +29,7 @@
 
     &:hover {
         &:before {
-            color: input(border-color-focus);
+            color: input(border-color-hover);
         }
     }
 
