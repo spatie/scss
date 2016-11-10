@@ -1,0 +1,12 @@
+.page {
+    margin: 0 auto;
+    padding: gutter();
+
+    &.-left {
+        margin-left: 0;
+    }
+
+    &.-right {
+        margin-right: 0;
+    }
+}

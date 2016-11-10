@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.5
+- Add page concept
+
 ## 0.4.2
 - Body--stretched
 
