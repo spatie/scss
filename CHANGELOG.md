@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.4.2
+- Body--stretched
+
 ## 0.4.1
 - Body font
 
