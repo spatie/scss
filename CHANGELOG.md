@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.4
+- Move main file
+
 ## 0.3
 - Add buttons
 

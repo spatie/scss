@@ -1,8 +1,8 @@
 {
     "name": "spatie-scss",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
-    "main": "src/spatie.scss",
+    "main": "spatie.scss",
     "scripts": {
         "build": "webpack",
         "prepublish": "npm run build"

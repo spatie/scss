@@ -5,7 +5,7 @@ import path from 'path';
 
 module.exports = {
     entry: {
-        'spatie': './src/spatie.scss',
+        'spatie': './spatie.scss',
     },
     output: {
         path: path.resolve(process.cwd(), 'build'),
