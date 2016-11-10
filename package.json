@@ -1,6 +1,6 @@
 {
     "name": "spatie-scss",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
     "main": "spatie.scss",
     "scripts": {
@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/spatie/spatie-scss",
     "dependencies": {
-        "avalanche-css": "^1.1.2",
+        "avalanche-css": "https://github.com/willemvb/avalanche/tarball/master",
         "normalize-css": "^2.3.1"
     },
     "devDependencies": {

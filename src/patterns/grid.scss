@@ -1,4 +1,17 @@
-$av-namespace: 'grid';
+.grid {
+    margin: 0 auto;
+    padding: gutter();
+
+    &.-left {
+        margin-left: 0;
+    }
+
+    &.-right {
+        margin-right: 0;
+    }
+}
+
+$av-namespace: 'grid__row';
 $av-gutter: grid(spacing);
 $av-width-class-namespace: '-width-';
 $av-width-class-style: 'fraction';
@@ -9,6 +22,9 @@ $av-breakpoints: (
     m:  '(max-width: #{breakpoint(m)})',
     l:  '(max-width: #{breakpoint(l)})',
 );
+
+$av-element-name: 'grid__col';
+$av-modifier-class-chain: '.-';
 
 // Enable/disable grid layouts
 $av-enable-grid-center: true;

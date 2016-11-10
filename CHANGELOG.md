@@ -2,6 +2,9 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.6
+- Move page to grid
+
 ## 0.5
 - Add page concept
 
