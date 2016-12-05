@@ -1,0 +1,15 @@
+@function grid($key: spacing) {
+    @return mapping($grid, $key);
+}
+
+@function gutter($key: default) {
+    @return mapping($gutter, $key);
+}
+
+@function layout($key: max-width) {
+    @return mapping($layout, $key);
+}
+
+@function z-index($key: above) {
+    @return mapping($z-index, $key);
+}

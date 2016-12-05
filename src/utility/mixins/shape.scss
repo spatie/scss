@@ -52,3 +52,15 @@
     border-style: solid;
     border-width: $size;
 }
+
+@mixin shape-triangle-up($size, $display: inline-block, $color: transparent) {
+    content: '';
+
+    display: $display;
+    width: 0;
+    height: 0;
+
+    border-color: transparent transparent $color transparent;
+    border-style: solid;
+    border-width: $size;
+}

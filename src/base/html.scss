@@ -2,8 +2,6 @@ html {
     @include font-size(default, px);
     @include text-antialiasing($font-anti-aliasing);
 
-    height: 100%;
-
     @include mq-smaller(l) {
         @include font-size(s, px);
     }
@@ -12,5 +10,25 @@ html {
     }
     @include mq-smaller(s) {
         @include font-size(xs, px);
+    }
+}
+
+.html--stretched {
+    display: flex;
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .header,
+    .footer {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .main {
+        flex-grow: 1;
     }
 }

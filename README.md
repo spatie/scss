@@ -47,7 +47,7 @@ Default settings are stored in Sass maps...
 ```scss
 // settings/typography.scss
 
-$font-weights: (
+$font-weight: (
     default: (
             ...
             ),
@@ -124,7 +124,7 @@ Be sure to remove the `!default` flag for this variable.
 
 ```scss
 // app.scss
-$gutters: (
+$gutter: (
     xs: 5px,
     s: 10px,
     default: 20px,

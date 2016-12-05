@@ -1,0 +1,13 @@
+.layout {
+    max-width: layout(max-width);
+    margin: 0 auto;
+    padding: layout(padding);
+
+    &.-left {
+        margin-left: 0;
+    }
+
+    &.-right {
+        margin-right: 0;
+    }
+}

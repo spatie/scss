@@ -1,0 +1,3 @@
+@function border-radius($key: default) {
+    @return mapping($border-radius, $key);
+}

@@ -1,21 +1,5 @@
 body {
-    line-height: line-height;
+    line-height: line-height();
 
     color: text-color();
-}
-
-.body--stretched {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-    .header,
-    .footer {
-        flex-grow: 0;
-        flex-shrink: 0;
-    }
-
-    .main {
-        flex-grow: 1;
-    }
 }

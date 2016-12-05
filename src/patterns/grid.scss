@@ -1,28 +1,14 @@
-.grid {
-    max-width: grid(max-width);
-    margin: 0 auto;
-    padding: gutter();
-
-    &.-left {
-        margin-left: 0;
-    }
-
-    &.-right {
-        margin-right: 0;
-    }
-}
-
-$av-namespace: 'grid__row';
+$av-namespace: 'grid';
+$av-element-name: 'cell';
 $av-gutter: grid(spacing);
 $av-width-class-namespace: '-width-';
 $av-width-class-style: 'fraction';
 $av-widths: grid(widths);
 $av-breakpoints: (
-    s:  '(min-width: #{map-get(map-get($breakpoints, horizontal), s)})',
-    m:  '(min-width: #{map-get(map-get($breakpoints, horizontal), m)})',
-    l:  '(min-width: #{map-get(map-get($breakpoints, horizontal), l)})',
+    s:  '(min-width: #{breakpoint(s, horizontal)})',
+    m:  '(min-width: #{breakpoint(m, horizontal)})',
+    l:  '(min-width: #{breakpoint(l, horizontal)})',
 );
-$av-element-name: 'grid__col';
 $av-modifier-class-chain: '.-';
 
 // Enable/disable grid layouts

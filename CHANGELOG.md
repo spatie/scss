@@ -2,6 +2,10 @@
 
 All Notable changes to `spatie-scss` will be documented in this file
 
+## 0.8.0
+- Include Avalanche 1.2.0
+- Restructure settings
+
 ## 0.7.1
 - Clean up settings
 

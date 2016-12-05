@@ -1,0 +1,7 @@
+@function button($key: neutral-background) {
+    @return mapping($button, $key);
+}
+
+@function input($key: height) {
+    @return mapping($input, $key);
+}

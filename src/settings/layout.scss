@@ -1,0 +1,30 @@
+$grid: (
+    spacing: 2rem,
+    widths: (
+        2,
+        3,
+        4,
+        5,
+        6,
+    )
+) !default;
+$gutter: (
+    xs: .5rem,
+    s: .75rem,
+    default: 1rem,
+    m: 2rem,
+    l: 4rem,
+    xl: 8rem,
+) !default;
+$layout: (
+    max-width: 75rem,
+    padding: 2rem,
+) !default;
+$z-index: (
+    'modal': 5000,
+    'toolbar': 2000,
+    'fixed': 500,
+    'above': 10,
+    'default': 1,
+    'below': -1,
+) !default;

@@ -1,0 +1,12 @@
+@function mapping($map, $key, $parse: false) {
+    @if not map-has-key($map, $key) {
+        @warn 'Unknown key: `#{$key}` in map: #{$map}';
+        @return null;
+    }
+
+    @if not $parse {
+        @return map-get($map, $key);
+    } @else {
+        @return #{map-get($map, $key)};
+    }
+}
