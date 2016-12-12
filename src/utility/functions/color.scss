@@ -1,28 +1,28 @@
-@function color($pallete, $key: 'default', $opacity: 1) {
+@function color($pallete, $key: default, $opacity: 1) {
     @return rgba(mapping($pallete, $key), $opacity);
 }
 
-@function blue($key: 'default', $opacity: 1) {
+@function blue($key: default, $opacity: 1) {
     @return rgba(mapping($blue, $key), $opacity);
 }
 
-@function green($key: 'default', $opacity: 1) {
+@function green($key: default, $opacity: 1) {
     @return rgba(mapping($green, $key), $opacity);
 }
 
-@function gray($key: 'default', $opacity: 1) {
+@function gray($key: default, $opacity: 1) {
     @return rgba(mapping($gray, $key), $opacity);
 }
 
-@function red($key: 'default', $opacity: 1) {
+@function red($key: default, $opacity: 1) {
     @return rgba(mapping($red, $key), $opacity);
 }
 
-@function yellow($key: 'default', $opacity: 1) {
+@function yellow($key: default, $opacity: 1) {
     @return rgba(mapping($yellow, $key), $opacity);
 }
 
-@function orange($key: 'default', $opacity: 1) {
+@function orange($key: default, $opacity: 1) {
     @return rgba(mapping($orange, $key), $opacity);
 }
 
@@ -34,7 +34,7 @@
     @return rgba(mapping($color, black), $opacity);
 }
 
-@function link-color($key: 'default', $opacity: 1) {
+@function link-color($key: default, $opacity: 1) {
     @return rgba(mapping($link-color, $key), $opacity);
 }
 

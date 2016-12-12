@@ -3,7 +3,7 @@
     font-size: font-size($font-size, $type);
 }
 
-@mixin font($family: default, $weight: normal, $style: normal) {
+@mixin font($family: default, $weight: normal, $style: inherit) {
     font-family: font-family($family);
     font-style: $style;
     @if $family != 'icons' {

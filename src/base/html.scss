@@ -2,6 +2,9 @@ html {
     @include font-size(default, px);
     @include text-antialiasing($font-anti-aliasing);
 
+    line-height: line-height();
+    color: text-color();
+
     @include mq-smaller(l) {
         @include font-size(s, px);
     }
@@ -19,7 +22,6 @@ html {
     body {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
     }
 
     .header,
