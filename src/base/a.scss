@@ -3,3 +3,19 @@ a {
 
     text-decoration: none;
 }
+
+.a--link {
+    @include text-underline(link-color());
+
+    &:hover {
+        @include text-underline(link-color(hover));
+    }
+
+    &:active {
+        @include text-underline(link-color(active));
+    }
+
+    &:visited {
+        @include text-underline(link-color(visited));
+    }
+}
