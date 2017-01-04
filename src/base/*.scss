@@ -1,11 +1,12 @@
 * {
     font-family: font-family(default);
+    font-weight: inherit;
+    line-height: inherit;
 
     box-sizing: border-box;
     position: relative;
+
     color: inherit;
-    line-height: inherit;
-    font-weight: inherit;
 
     &:after,
     &:before {

@@ -3,7 +3,9 @@ html {
     @include text-antialiasing($font-anti-aliasing);
 
     line-height: line-height();
+
     color: text-color();
+    min-height: 100vh;
 
     @include mq-smaller(l) {
         @include font-size(s, px);

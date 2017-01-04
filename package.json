@@ -1,6 +1,6 @@
 {
     "name": "spatie-scss",
-    "version": "0.8.2",
+    "version": "0.9.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
     "main": "spatie.scss",
     "scripts": {
@@ -30,7 +30,6 @@
         "babel-preset-es2015": "^6.16.0",
         "extract-text-webpack-plugin": "^1.0.1",
         "node-sass": "^3.10.1",
-        "normalize-css": "^2.3.1",
         "path": "^0.12.7",
         "postcss-loader": "^0.13.0",
         "raw-loader": "^0.5.1",
