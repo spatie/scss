@@ -21,18 +21,19 @@ input,
     }
 
     &:hover {
-        border-color: input(border-color-hover) !important;
+        border-color: input(border-color-hover);
     }
 
     &:focus {
-        border-color: input(border-color-focus) !important;
+        border-color: input(border-color-focus);
         outline: 0;
     }
 
     &.-invalid {
         border-color: red();
 
-        &:hover {
+        &:hover,
+        &:focus {
             border-color: red(dark);
         }
     }
