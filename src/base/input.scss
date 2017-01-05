@@ -28,4 +28,8 @@ input,
         border-color: input(border-color-focus) !important;
         outline: 0;
     }
+
+    &.-invalid {
+        border-color: red();
+    }
 }
