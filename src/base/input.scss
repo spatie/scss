@@ -31,5 +31,9 @@ input,
 
     &.-invalid {
         border-color: red();
+
+        &:hover {
+            border-color: red(dark);
+        }
     }
 }
