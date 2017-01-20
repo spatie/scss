@@ -1,15 +1,15 @@
 {
-    "name": "spatie-scss",
-    "version": "0.10.3",
+    "name": "@spatie.be/scss",
+    "version": "1.0.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
-    "main": "spatie.scss",
+    "main": "settings.scss",
     "scripts": {
         "build": "webpack",
         "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/spatie/spatie-scss.git"
+        "url": "https://github.com/spatie/scss.git"
     },
     "keywords": [
         "spatie"
@@ -17,9 +17,9 @@
     "author": "Willem Van Bockstal",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/spatie/spatie-scss/issues"
+        "url": "https://github.com/spatie/scss/issues"
     },
-    "homepage": "https://github.com/spatie/spatie-scss",
+    "homepage": "https://github.com/spatie/scss",
     "dependencies": {
         "avalanche-css": "^1.2.0",
         "normalize-css": "^2.3.1"

@@ -1,6 +1,6 @@
-# spatie-scss
+# scss
 
-[![Latest Version on NPM](https://img.shields.io/npm/v/spatie-scss.svg?style=flat-square)](https://npmjs.com/package/spatie-scss)
+[![Latest Version on NPM](https://img.shields.io/npm/v/scss.svg?style=flat-square)](https://npmjs.com/package/scss)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 SCSS boilerplate with common functions, mixins, helpers and patterns to kickstart CSS authoring.
@@ -75,8 +75,9 @@ $blue: (
 ```scss
 // my-app.scss
 
-@import 'my-settings';
-@import 'spatie-scss/spatie';
+@import '@spatie/scss/settings';
+@import 'my-custom-settings';
+@import '@spatie/scss/styles';
 
 h1 {
     @include font-secondary-bold;
@@ -102,17 +103,18 @@ The best postcards will get published on the open source page on our website.
 You can install the package via yarn:
 
 ```bash
-yarn add spatie-scss
+yarn add @spatie/scss
 ```
 
 ## Usage
 
 ### Import
 
-Import the main file in your SCSS files.
+Import the base & styles file in your SCSS files.
 
 ```scss
-@import 'spatie-scss/spatie'
+@import '@spatie/scss/settings';
+@import '@spatie/scss/styles';
 ```
 
 ### Overwriting defaults
@@ -123,7 +125,10 @@ Eg. to set your own gutters in `px` instead of `rem`, you would construct or imp
 Be sure to remove the `!default` flag for this variable.
 
 ```scss
-// app.scss
+// your-app.scss
+@import '@spatie/scss/settings';
+
+// overwrite default settings
 $gutter: (
     xs: 5px,
     s: 10px,
@@ -131,7 +136,7 @@ $gutter: (
     ...
 );
 
-@import 'spatie-scss/spatie';
+@import '@spatie/scss/styles';
 ```
 
 ### Autoprefixing

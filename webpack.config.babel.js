@@ -5,7 +5,7 @@ import path from 'path';
 
 module.exports = {
     entry: {
-        'spatie': './spatie.scss',
+        'demo': './demo.scss'
     },
     output: {
         path: path.resolve(process.cwd(), 'build'),
@@ -16,14 +16,14 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loader:  ExtractTextPlugin.extract('raw!postcss!sass'),
-            }
+            },
         ],
     },
     plugins: [
-        new ExtractTextPlugin('spatie.css')
+        new ExtractTextPlugin('[name].css'),
     ],
     postcss() {
         return [ autoprefixer ];
-    }
+    },
 };
 
