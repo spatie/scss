@@ -1,15 +1,15 @@
 * {
-    font-family: font-family(default);
+    font-family: inherit;
     font-weight: inherit;
     line-height: inherit;
 
-    box-sizing: border-box;
+    box-sizing: inherit;
     position: relative;
 
     color: inherit;
 
     &:after,
     &:before {
-        box-sizing: border-box;
+        box-sizing: inherit;
     }
 }
