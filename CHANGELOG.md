@@ -2,8 +2,11 @@
 
 All Notable changes to `scss` will be documented in this file
 
+## 1.1.2
+- Fix default html `font-weight`
+
 ## 1.1.1
-- 
+- Fix `block-cover` for images
 
 ## 1.1.0
 - Move `box-sizing`, `font-family` to `html`

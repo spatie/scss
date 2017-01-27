@@ -1,8 +1,8 @@
 html {
-    @include font-size(default, px);
+    @include font;
     @include text-antialiasing($font-anti-aliasing);
 
-    font-family: font-family(default);
+    font-size: font-size(default, px);
     line-height: line-height();
 
     box-sizing: border-box;
