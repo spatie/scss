@@ -1,46 +1,46 @@
-&.h-above-xs {
+.h-above-xs {
     @include mq-smaller(xs) {
         display: none !important;
     }
 }
 
-&.h-above-s {
+.h-above-s {
     @include mq-smaller(s) {
         display: none !important;
     }
 }
 
-&.h-above-m {
+.h-above-m {
     @include mq-smaller(m) {
         display: none !important;
     }
 }
 
-&.h-above-l {
+.h-above-l {
     @include mq-smaller(l) {
         display: none !important;
     }
 }
 
-&.h-below-xs {
+.h-below-xs {
     @include mq-wider(xs) {
         display: none !important;
     }
 }
 
-&.h-below-s {
+.h-below-s {
     @include mq-wider(s) {
         display: none !important;
     }
 }
 
-&.h-below-m {
+.h-below-m {
     @include mq-wider(m) {
         display: none !important;
     }
 }
 
-&.h-below-l {
+.h-below-l {
     @include mq-wider(l) {
         display: none !important;
     }
