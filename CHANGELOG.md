@@ -2,6 +2,9 @@
 
 All Notable changes to `scss` will be documented in this file
 
+## 1.1.3
+- Fix above below selectors
+
 ## 1.1.2
 - Fix default html `font-weight`
 
