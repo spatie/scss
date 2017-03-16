@@ -2,6 +2,9 @@
 
 All Notable changes to `scss` will be documented in this file
 
+## 1.2.3
+- Fix `html--stretched`  body height
+
 ## 1.2.2
 - Fix multiline button line-height
 
