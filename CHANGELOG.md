@@ -2,7 +2,7 @@
 
 All Notable changes to `scss` will be documented in this file
 
-## 1.2.0
+## 1.2.1
 - Add `background-cover` mixin
 - Rename `above-below` to `smaller-wider`
 
