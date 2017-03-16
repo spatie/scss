@@ -1,5 +1,5 @@
 .alerts {
-    margin: gutter();
+    margin: gutter() 0;
 
     &:empty {
         display: none;

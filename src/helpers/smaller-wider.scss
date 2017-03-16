@@ -1,45 +1,54 @@
+
+.h-wider-xs,
 .h-above-xs {
     @include mq-smaller(xs) {
         display: none !important;
     }
 }
 
+.h-wider-s,
 .h-above-s {
     @include mq-smaller(s) {
         display: none !important;
     }
 }
 
+.h-wider-m,
 .h-above-m {
     @include mq-smaller(m) {
         display: none !important;
     }
 }
 
+.h-wider-l,
 .h-above-l {
     @include mq-smaller(l) {
         display: none !important;
     }
 }
 
+.h-smaller-xs,
 .h-below-xs {
     @include mq-wider(xs) {
         display: none !important;
     }
 }
 
+.h-smaller-s,
 .h-below-s {
     @include mq-wider(s) {
         display: none !important;
     }
 }
 
+.h-smaller-m,
 .h-below-m {
     @include mq-wider(m) {
         display: none !important;
     }
 }
 
+.h-smaller-l,
 .h-below-l {
     @include mq-wider(l) {
         display: none !important;

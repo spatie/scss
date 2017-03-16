@@ -3,3 +3,9 @@
     background-position: $background-position;
     background-size: cover;
 }
+
+@mixin background-cover ($background-position: center center, $background-size: cover, $background-repeat: no-repeat) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
