@@ -2,11 +2,11 @@ button,
 .button {
     @include font-bold;
 
-    line-height: input(height);
+    line-height: line-height(xs);
 
     display: inline-block;
     min-height: input(height);
-    padding: 0 button(padding);
+    padding: #{(input(height) - line-height(xs))/2} button(padding);
     vertical-align: middle;
 
     color: button(neutral-color);
