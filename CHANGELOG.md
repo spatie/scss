@@ -2,6 +2,9 @@
 
 All Notable changes to `scss` will be documented in this file
 
+## 1.3.0
+- Add a few more interaction helpers
+
 ## 1.2.4
 - Fix `alert` colors
 

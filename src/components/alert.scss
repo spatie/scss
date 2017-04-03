@@ -63,21 +63,21 @@
     @extend .alert;
 
     color: blue(darker);
-    background: blue(lightest);
+    background-color: blue(lightest);
 }
 
 .alert--success {
     @extend .alert;
 
     color: green(darker);
-    background: green(lightest);
+    background-color: green(lightest);
 }
 
 .alert--warning {
     @extend .alert;
 
     color: yellow(darker);
-    background: yellow(lightest);
+    background-color: yellow(lightest);
 }
 
 .alert--error,
@@ -85,5 +85,5 @@
     @extend .alert;
 
     color: red(darker);
-    background: red(lightest);
+    background-color: red(lightest);
 }
