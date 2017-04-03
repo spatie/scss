@@ -59,32 +59,31 @@
     }
 }
 
-
 .alert--info {
     @extend .alert;
 
-    color: blue(dark);
+    color: blue(darker);
     background: blue(lightest);
 }
 
 .alert--success {
     @extend .alert;
 
-    color: green(dark);
+    color: green(darker);
     background: green(lightest);
 }
 
 .alert--warning {
     @extend .alert;
 
-    color: white();
-    background: yellow();
+    color: yellow(darker);
+    background: yellow(lightest);
 }
 
 .alert--error,
 .alert--danger {
     @extend .alert;
 
-    color: red();
+    color: red(darker);
     background: red(lightest);
 }
