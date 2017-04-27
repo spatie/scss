@@ -1,6 +1,6 @@
 {
     "name": "@spatie/scss",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
     "main": "settings.scss",
     "scripts": {

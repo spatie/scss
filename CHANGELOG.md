@@ -2,6 +2,10 @@
 
 All Notable changes to `scss` will be documented in this file
 
+## 1.4.0
+- Default hr
+- `brand-color` function
+
 ## 1.3.0
 - Add a few more interaction helpers
 

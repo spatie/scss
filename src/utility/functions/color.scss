@@ -45,3 +45,7 @@
 @function text-color($opacity: 1) {
     @return rgba(mapping($color, text), $opacity);
 }
+
+@function brand-color($key: default, $opacity: 1) {
+    @return rgba(mapping($brand, $key), $opacity);
+}
